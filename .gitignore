@@ -1,2 +1,2 @@
 roles/nexus/files/latest-unix.tar.gz
-./vagrant
+.vagrant
