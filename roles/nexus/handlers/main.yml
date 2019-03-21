@@ -1,0 +1,10 @@
+---
+# handlers file for nexus
+
+- name: daemon-reload
+  systemd:
+    daemon_reload: yes
+
+- name: rename-nexus
+  become: yes
+  shell: mv -n /opt/nexus* /opt/nexus

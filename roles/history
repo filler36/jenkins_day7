@@ -1,0 +1,5 @@
+wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+tar xvzf latest-unix.tar.gz
+sudo cp -r nexus-3.15.2-01/ /opt
+sudo mv /opt/nexus-3.15.2-01/ /opt/nexus
+sudo sh -c 'echo "NEXUS_HOME=/opt/nexus" >> /etc/profile'
